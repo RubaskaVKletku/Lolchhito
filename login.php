@@ -4,7 +4,7 @@
 
 	$client_id ="HJ1RE1W2IBOKB1TC1NTZJILZLBY1ZSRE5RGQWHPBH2DGH2AI";
 	$client_secret = "KXXOOEDQ2K4MXUE3O55E4KIPLSNJNIFHP3BO2TMMWCZ2PL5W";
-	$redirect_uri = "http://lolchhito.ucoz.ru"; //In this example the redirect_uri is just pointing back to this file
+	$redirect_uri = "https://github.com/RubaskaVKletku/Lolchhito/blob/master/login.php"; //In this example the redirect_uri is just pointing back to this file
 
 	$uri = file_get_contents("https://foursquare.com/oauth2/access_token?client_id=".$client_id."&client_secret=".$client_secret."&grant_type=authorization_code&redirect_uri=".$redirect_uri."&code=".$key, true);
 
